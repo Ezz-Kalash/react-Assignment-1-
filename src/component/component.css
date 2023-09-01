@@ -10,18 +10,27 @@
     width: 500px;
     margin-left: 30%;
     margin-bottom: 10px;
+    transition: linear all 0.2s;
   }
+  .post:hover{
+    padding: 0.2%; 
+    background-color: rgba(227, 250, 242, 0.348);
+ }
   .boxx{
     border: solid darkcyan 5px ;
     width: 300px;
     margin-left: 68%;
-    margin-top: -180px;
-    padding: 20px;
+    padding: 2%;
+    position: absolute;
     top: 0;
-  
-  
+    margin-top: 140px;
+    transition: linear  0.2s;
   
   }
+  .boxx:hover{
+    padding: 2.2%; 
+    background-color: rgba(227, 250, 242, 0.348);
+ }
   .butt{
     padding: 5px;
     margin: 5px;
@@ -32,10 +41,10 @@
     font-size:1vw;
     font-weight: bold;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
-  
+    transition: linear  0.2s;
+
   }
   .butt:hover{
     background-color: rgb(76, 25, 124);
-    transition: 200ms;
   
   }
