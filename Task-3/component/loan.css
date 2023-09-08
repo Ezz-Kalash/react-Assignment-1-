@@ -1,0 +1,51 @@
+.form{
+    margin-top: 5vw;
+    margin-left: 23vw;
+    background-color:rgb(53, 45, 54);
+    width: 53vw;
+    height: 32vw;
+    color:rgb(190, 103, 73);
+    
+    font-size: large;
+    font-weight: 700;
+    padding: 3vw;
+    border-radius: 3%;
+    
+    box-shadow: rgba(0, 0, 0, 0.672) 1px 1px 10px;
+
+}
+.head{
+    margin-top: 2%;
+    padding: 2vw;
+    font-size: xx-large;
+    font-weight:800;
+
+}
+input{
+    width: 53vw;
+    height: 1vw;
+
+    margin-bottom: 3%;
+
+}
+label{
+    font-size: 1.2vw;
+}
+.name{
+    margin-left: -2vw;
+}
+button{
+    background-color:rgb(190, 103, 73) ;
+    color: white;
+    padding: 0.2vw;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    margin-top: 5%;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.672) 1px 1px 10px;
+
+}
+button:hover{
+    background-color: rgb(130, 70, 50);
+}
