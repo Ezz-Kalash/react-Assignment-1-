@@ -1,0 +1,139 @@
+#exp{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top:0
+}
+#imgs{
+padding-left: 30vw;
+padding-top: 3VW;}
+
+/* profile */
+#profile{
+    width: calc(100%); /* Set the width to 100% minus 120px */
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+#name{
+    color: rgb(255, 255, 255);
+    margin-top: 7vw;
+    margin-left: 3vw;
+    font-weight: bolder;
+
+}
+#img{
+    margin-top: 5vw;
+}
+#top{
+    display: flex;
+
+    margin-left: 32vw;
+}
+#butt{
+    width: 8vw;
+    height: 2vw;
+    background-color: white;
+    color: black;
+    margin-top: 7vw;
+    margin-left: 2vw;
+    font-size: small;
+    text-transform: capitalize;
+}
+#butt:hover{
+    background-color: slategrey;
+}
+#stats{
+    display: flex;
+    margin-top: 10vw;
+    margin-left: -34vw;
+}
+#p{
+    padding-left: 5vw;
+    color: white;
+}
+
+#bio{
+    margin-top: 13vw;
+    margin-left: -32vw;
+    font-size: medium;
+}
+/* progress */
+.prog{
+    background-color: rgb(0, 0, 0);
+width: 100%;
+height: 100%;
+top: 0;
+margin-left: 10vw;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+padding: 10px;
+}
+
+.content {
+text-align: center;
+color: red;
+font-size: xx-large;
+font-weight: bolder;
+margin-left: -23vw;
+padding-bottom: 11vw;
+
+}
+
+#soon {
+width:300px;
+margin-top: 10%;
+}
+
+/* home */
+.post__image{
+    width: 600px;
+    height: 500px;
+}
+.post__user-info{
+    display: flex;
+}
+.post__username{
+    font-size: large;
+    font-weight: bold;
+    padding: 0.8vw;
+}
+.post__header{
+margin-left: 31vw;
+
+}
+.post{
+    margin-top: 2vw;
+}
+/* messeges */
+.messages-list{
+    margin-left: -23vw;
+    width: 20vw;
+    border-right: 1px white solid;
+    padding-bottom: 21.4vw;
+}
+.namee{
+    display: flex;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 1vw;
+    width: 19vw;
+
+}
+.editicon{
+    margin-left: 10vw;
+}
+.meseges-req{
+    padding-top: 1vw;
+    display: flex;
+}
+.messenger-logo{
+    margin-top: 15%;
+    padding: 1vw;
+    position: absolute;
+    top:0;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 20%;
+}

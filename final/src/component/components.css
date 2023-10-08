@@ -1,0 +1,71 @@
+/* Apply mixed-colored circular border */
+#sroty {
+    width: 70px;
+    height : 70px;
+    border: 5px  ridge ;
+    border-color: #ff8a00 #ff008a red ;
+
+}
+
+
+.Storybar{
+margin-left: -4vw;
+
+
+}
+.aa{
+    word-wrap: break-word;
+    width: 23vw;
+
+}
+.leftbar{
+    z-index: 100;
+
+    align-self: flex-start;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 18vw;
+    text-align: left;
+  font-size: medium;
+
+  padding-left: 2vw;
+  color: white;
+  left: 0;
+  height: 100%;
+  border-right: rgba(255, 255, 255, 0.169) 0.1px solid;
+
+  }
+
+  
+  #insta{
+    margin-top: 2vw;
+  }
+  
+  #but{
+    text-decoration: none;
+    color: white;
+    height: 3vw;
+
+  }
+  .menu{
+margin-top: 10vw;}
+
+  .rightbar{
+    z-index: 100;
+
+    background-color: #000000;
+    color: white;
+    width: 25vw;
+    align-self: flex-end;
+    position: absolute;
+top: 0;
+right: 0;
+  }
+
+ .follow{
+  color: blue;
+ }
+  #see{
+    color:white
+  }
